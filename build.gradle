@@ -1,0 +1,15 @@
+group 'com.github.kewang'
+version '0.1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: "maven"
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
